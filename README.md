@@ -10,6 +10,7 @@ Harish Doraiswamy, Vijay Natarajan, and Ravi S. Nanjundiah, "An Exploration fram
 The code is an Eclipse peoject. To run the framework, you also need python with opencv and numpy support. The data sets supported are:
 
 [1] CPC-merged IR brightness temperature data. http://mirador.gsfc.nasa.gov/collections/MERG__001.shtml
+
 [2] Nasa trmm repository. http://trmm.gsfc.nasa.gov/.
 
 To run the framework, you need to execute the following sub-programs in the given order:
