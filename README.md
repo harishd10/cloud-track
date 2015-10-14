@@ -7,7 +7,7 @@ Reference:
 Harish Doraiswamy, Vijay Natarajan, and Ravi S. Nanjundiah, "An Exploration framework to identify and track movement of cloud systems", IEEE Transactions on Visualization and Computer Graphics (IEEE SciVis ’13), 19 (12), 2013, 2896--2905.
 
 
-The code is an Eclipse peoject. To run the framework, you also need python with opencv and numpy support. The data sets supported are:
+The code is an Eclipse project. To run the framework, you also need python with OpenCV and numpy support. The data sets supported are:
 
 [1] CPC-merged IR brightness temperature data. http://mirador.gsfc.nasa.gov/collections/MERG__001.shtml
 
