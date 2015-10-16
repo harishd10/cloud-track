@@ -1,6 +1,8 @@
 Track Cloud Systems
 ===================
 
+
+
 A visual exploration framework to track and query cloud systems.
 
 Reference:
@@ -21,8 +23,38 @@ To run the framework, you need to execute the following sub-programs in the give
 
 (3) Java program: vgl.iisc.volray.MapViewer - This reads a property file (sample available in input/ directory). 
 
-Options for the viewer (3) can be specified by pressing "c" and entering a command. I'll soon make a list of commands supported.
-For now, you can check the executeComment() function in OffRendererTime.java 
+You can select a cloud of interest but pressing control and mouse left click.
+
+Options for the viewer (3) can be specified by pressing "c" and entering a command. 
+
+The following commands are supported:
+
+**direction *<east,west,north,south>* **-- finds clouds along the queries direction
+
+**track <local,global>* ** -- tracks the local or global movement of the clouds.
+
+**option *<option> <value>* **
+
+The following options are supported:
+
+*localGlyphSize (globalGlyphSize)* - size of the glyphs for visualizing local (global) movement.
+
+*localLengthBefore (localLengthAfter)* - time to track and visualize the local movement of the cloud before (after) current time.
+ 		
+*globalLengthBefore (globalLengthAfter)*  - time to track and visualize the global movement of the cloud before (after) current time.
+
+*localSampleDensity (globalSampleDensity)* - sub-sample time steps (to make computation faster)
+
+*time* - jump to a given time step (this is an integer representing the index from starting time)
+
+**option color** -- This toggles highlighting the clouds with different colors.
 
 
+Pressing "a" toggles animation mode
+
+Pressing the arrow keys allows panning (mouse can also be used for this purpose)
+
+Mouse right click is used for zooming in / out
+
+There are possible other options hidden in the code. I will make an exhaustive list when I find time.
 

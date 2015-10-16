@@ -561,10 +561,10 @@ public class OffRendererTime extends VolRayBrush {
 		int density = (int) Options.getLocalSampleDensity();
 		int ar = 25;
 		// mumbai
-		ar = 50;
-		if(v == 249046) {
-			density = 5;
-		}
+		// ar = 50;
+		// if(v == 249046) {
+		// 	density = 5;
+		// }
 		// aila
 //		density = 10;
 		// nakazawa
