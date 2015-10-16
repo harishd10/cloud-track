@@ -29,23 +29,23 @@ Options for the viewer (3) can be specified by pressing "c" and entering a comma
 
 The following commands are supported:
 
-**direction <east,west,north,south>**-- finds clouds along the queries direction
+**direction [east,west,north,south]**-- finds clouds along the queries direction
 
-**track <local,global>** -- tracks the local or global movement of the clouds.
+**track [local,global]** -- tracks the local or global movement of the clouds.
 
-**option <option> <value>**
+**option** *option* *value*
 
 The following options are supported:
 
-*localGlyphSize (globalGlyphSize)* - size of the glyphs for visualizing local (global) movement.
+*localGlyphSize (globalGlyphSize)* -- size of the glyphs for visualizing local (global) movement.
 
-*localLengthBefore (localLengthAfter)* - time to track and visualize the local movement of the cloud before (after) current time.
- 		
-*globalLengthBefore (globalLengthAfter)*  - time to track and visualize the global movement of the cloud before (after) current time.
+*localLengthBefore (localLengthAfter)* -- time to track and visualize the local movement of the cloud before (after) current time.
+     	
+*globalLengthBefore (globalLengthAfter)*  -- time to track and visualize the global movement of the cloud before (after) current time.
 
-*localSampleDensity (globalSampleDensity)* - sub-sample time steps (to make computation faster)
+*localSampleDensity (globalSampleDensity)* -- sub-sample time steps (to make computation faster)
 
-*time* - jump to a given time step (this is an integer representing the index from starting time)
+*time* -- jump to a given time step (this is an integer representing the index from starting time)
 
 **option color** -- This toggles highlighting the clouds with different colors.
 
