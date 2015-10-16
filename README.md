@@ -29,11 +29,11 @@ Options for the viewer (3) can be specified by pressing "c" and entering a comma
 
 The following commands are supported:
 
-**direction *<east,west,north,south>* **-- finds clouds along the queries direction
+**direction <east,west,north,south>**-- finds clouds along the queries direction
 
-**track <local,global>* ** -- tracks the local or global movement of the clouds.
+**track <local,global>** -- tracks the local or global movement of the clouds.
 
-**option *<option> <value>* **
+**option <option> <value>**
 
 The following options are supported:
 
